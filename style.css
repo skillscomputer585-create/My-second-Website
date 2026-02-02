@@ -1,0 +1,80 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Background */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    padding: 40px;
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+}
+
+.header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Common Box Style */
+.box {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 25px;
+    max-width: 700px;
+    margin: 25px auto;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+    transition: all 0.4s ease;
+}
+
+/* Hover Effect */
+.box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 45px rgba(0,0,0,0.28);
+}
+
+/* Section Headings */
+.box h2 {
+    margin-bottom: 15px;
+    color: #2c5364;
+}
+
+/* Skills */
+.skill-list {
+    display: flex;
+    gap: 12px;
+     flex-wrap: wrap;
+}
+
+
+.skill-list span {
+    background: #2c5364;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.skill-list span:hover {
+    background: #0f2027;
+    transform: scale(1.08);
+}
